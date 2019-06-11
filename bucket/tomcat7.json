@@ -37,5 +37,13 @@
             "url": "$url.sha512"
         },
         "extract_dir": "apache-tomcat-$version"
-    }
+    },
+    "persist": [
+        "lib",
+        "conf",
+        "logs",
+        "temp",
+        "webapps",
+        "work"
+    ]
 }
