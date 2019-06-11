@@ -19,5 +19,13 @@
     },
     "suggest": {
         "JRE": "java/openjdk"
-    }
+    },
+    "persist": [
+        "lib",
+        "conf",
+        "logs",
+        "temp",
+        "webapps",
+        "work"
+    ]
 }
